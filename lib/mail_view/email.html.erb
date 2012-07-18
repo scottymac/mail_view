@@ -3,6 +3,8 @@ From: <%= mail.from %><br />
   Reply-To:<%= mail.reply_to %><br />
 <% end %>
 Subject: <%= mail.subject %><br />
+Date: <%= Time.now.strftime("%b %e, %Y %I:%M:%S %p %Z") %><br />
+To: <%= mail.to %><br />
 
 <% if mail.multipart? %>
     <% if body_part.content_type && body_part.content_type.match(/text\/html/) %>
