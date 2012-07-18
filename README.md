@@ -8,7 +8,7 @@ Install
 
 Add the gem to your `Gemfile`:
 
-    gem 'mail_view', :git => 'https://github.com/scottymac/mail_view'
+    gem 'mail_view_smac', :git => 'https://github.com/scottymac/mail_view'
 
 And run `bundle install`.
 
