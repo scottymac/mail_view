@@ -8,7 +8,7 @@ Install
 
 Add the gem to your `Gemfile`:
 
-    gem 'mail_view', :git => 'https://github.com/37signals/mail_view.git'
+    gem 'mail_view', :git => 'https://github.com/scottymac/mail_view'
 
 And run `bundle install`.
 
@@ -31,7 +31,7 @@ Since most emails do something interesting with database data, you'll need to wr
         def invitation
           account = Account.first
           inviter, invitee = account.users[0, 2]
-          Notifier.invitation(inviter, invitee) 
+          Notifier.invitation(inviter, invitee)
           # ::Notifier.invitation(inviter, invitee)  # May need to call with '::'
         end
 
