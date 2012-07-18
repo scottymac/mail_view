@@ -1,5 +1,5 @@
 Gem::Specification.new do |s|
-  s.name = 'mail_view_smac'
+  s.name = 'mail_view'
   s.version = '1.0.1'
   s.author = 'Josh Peek/Scott McMillin'
   s.email = 'josh@joshpeek.com/scottmcmillin@gmail.com'
